@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt_br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FullResDrop</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="header">
         <a href="#" class="logo">LOGO</a>
@@ -15,54 +17,61 @@
             <li><a href="#services">Service</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>            
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="toggle"></div>
+        <div class="toggle" onclick="toggle()"></div>
     </header>
 
     <section id="home">
         <div>
             <h2>Responsive Website Design for Beginners</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam? Doloribus modi voluptatibus exercitationem consequatur, quas corrupti porro possimus, consequuntur iste facilis quo minima cum fugiat sunt iure aliquam veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi ipsa distinctio iusto omnis iste voluptas hic, architecto autem dolor soluta possimus vel necessitatibus in deleniti tenetur modi cum velit?</p>
+            <p>Lorem ipsum dolor sit amet consectetur dipisicing elit. Quasi, magnam? Doloribus modi voluptatibus exercitationem consequatur, quas corrupti porro possimus, consequuntur iste facilis quo minima cum fugiat sunt iure aliquam veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi ipsa distinctio iusto omnis iste voluptas hic, architecto autem dolor soluta possimus vel necessitatibus in deleniti tenetur modi cum velit?</p>
             <a href="#">Read More</a>
         </div>
         <img src="img.jpg">
     </section>
-    
+
     <section id="about">
         <div>
             <h2>About US</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam? Doloribus modi voluptatibus exercitationem consequatur, quas corrupti porro possimus, consequuntur iste facilis quo minima cum fugiat sunt iure aliquam veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi ipsa distinctio iusto omnis iste voluptas hic, architecto autem dolor soluta possimus vel necessitatibus in deleniti tenetur modi cum velit?</p>
         </div>
     </section>
-    
+
     <section id="services">
         <div>
             <h2>Our Services</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam? Doloribus modi voluptatibus exercitationem consequatur, quas corrupti porro possimus, consequuntur iste facilis quo minima cum fugiat sunt iure aliquam veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi ipsa distinctio iusto omnis iste voluptas hic, architecto autem dolor soluta possimus vel necessitatibus in deleniti tenetur modi cum velit?</p>
         </div>
     </section>
-    
+
     <section id="portfolio">
         <div>
             <h2>Our Recent Work</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam? Doloribus modi voluptatibus exercitationem consequatur, quas corrupti porro possimus, consequuntur iste facilis quo minima cum fugiat sunt iure aliquam veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi ipsa distinctio iusto omnis iste voluptas hic, architecto autem dolor soluta possimus vel necessitatibus in deleniti tenetur modi cum velit?</p>
         </div>
     </section>
-    
+
     <section id="team">
         <div>
             <h2>Our Expert</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam? Doloribus modi voluptatibus exercitationem consequatur, quas corrupti porro possimus, consequuntur iste facilis quo minima cum fugiat sunt iure aliquam veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi ipsa distinctio iusto omnis iste voluptas hic, architecto autem dolor soluta possimus vel necessitatibus in deleniti tenetur modi cum velit?</p>
         </div>
     </section>
-    
+
     <section id="contact">
         <div>
             <h2>Contact US</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam? Doloribus modi voluptatibus exercitationem consequatur, quas corrupti porro possimus, consequuntur iste facilis quo minima cum fugiat sunt iure aliquam veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi ipsa distinctio iusto omnis iste voluptas hic, architecto autem dolor soluta possimus vel necessitatibus in deleniti tenetur modi cum velit?</p>
         </div>
     </section>
-    
+    <script type="text/javascript">
+        function toggle () {
+            var header = document.getElementById("header")
+            header.classList.toggle('active')
+        }
+    </script>
+
 </body>
+
 </html>
